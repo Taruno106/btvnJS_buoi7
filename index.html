@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <!-- bt1: In số nguyên dương chẵn/ lẻ -->
+        <div class="col-12">
+            <h2 class="mt-5">In số nguyên dương chẵn, lẻ nhỏ hơn 100</h2>
+            <button type="button" id="btnLoop1" class="btn btn-primary my-3 " style="padding: 10px 50px;">Xem kết
+                quả</button><br>
+            <p class="alert alert-primary" id="txtResult1"></p>
+        </div>
+
+        <!-- bt2: Đếm số chia hết cho 3 -->
+        <div class="col-12">
+            <h2 class="mt-5">Đếm số chia hết cho 3</h2>
+            <button type="button" id="btnLoop2" class="btn btn-info my-3 " style="padding: 10px 50px;">Xem kết
+                quả</button><br>
+            <p class="alert alert-info" id="txtResult2"></p>
+        </div>
+
+        <!-- bt3: Tìm số nguyên dương nhỏ nhất -->
+        <div class="col-12">
+            <h2 class="mt-5">Tìm số nguyên dương nhỏ nhất</h2>
+            <button type="button" id="btnLoop3" class="btn btn-warning my-3 " style="padding: 10px 50px;">Xem kết
+                quả</button><br>
+            <p class="alert alert-warning" id="txtResult3"></p>
+        </div>
+        <!-- bt4: Tính tổng -->
+        <div class="col-6 py-5">
+            <h2 class="mt-5">Tính tổng</h2>
+            <input type="number" class="form-control col-5" id="inputX" placeholder="nhập x" style="display: inline;">
+            <input type="number" class="form-control col-5" id="inputN" placeholder="nhập n" style="display: inline;">
+            <button type="button" id="btnLoop4" class="btn btn-success mt-3"
+                style="padding: 10px 50px; display: block;">Tính tổng</button><br>
+            <p class="alert alert-success" id="txtResult4"></p>
+        </div>
+        <!-- bt5: Tính giai thừa -->
+        <div class="col-6 py-5">
+            <h2 class="mt-5">Tính giai thừa</h2>
+            <input type="number" class="form-control col-5" id="inputNumN" placeholder="Nhập n">
+            <button type="button" id="btnLoop5" class="btn btn-primary mt-3"
+                style="padding: 10px 50px; display: block;">Tính tổng</button><br>
+            <p class="alert alert-primary" id="txtResult5"></p>
+        </div>
+        <!-- bt6: Tạo thẻ div -->
+        <div class="col-6 py-5">
+            <h2 class="mt-5">Tạo thẻ div</h2>
+            <button type="button" id="btnLoop6" class="btn btn-success my-3" style="padding: 10px 50px;">Tạo
+                thẻ</button>
+            <p class="alert alert-success" id="txtResult6"></p>
+        </div>
+        <!-- bt7: In số nguyên tố -->
+        <div class="col-6 py-5">
+            <h2 class="mt-5">In số nguyên tố</h2>
+            <input type="number" class="form-control col-5" id="inputPrime" placeholder="Nhập số n">
+            <button type="button" id="btnLoop7" class="btn btn-warning my-3" style="padding: 10px 50px;">In số</button>
+            <p class="alert alert-warning" id="txtResult7"></p>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="./JS/baitap1.js"></script>
+    <script src="./JS/baitap2.js"></script>
+    <script src="./JS/baitap3.js"></script>
+    <script src="./JS/baitap4.js"></script>
+    <script src="./JS/baitap5.js"></script>
+    <script src="./JS/baitap6.js"></script>
+    <script src="./JS/baitap7.js"></script>
 </body>
+
 </html>
